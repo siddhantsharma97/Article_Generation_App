@@ -3,7 +3,7 @@ from langchain.llms import CTransformers
 def getLLamaresponse(input_text,no_words,blog_domain):
 
     ### LLama2 model
-    llm=CTransformers(model="model\llama-2-7b-chat.ggmlv3.q4_1.bin",
+    llm=CTransformers(model="\Article_Generation_App\model\llama-2-7b-chat.ggmlv3.q4_1.bin",
                       model_type='llama',
                       config={'max_new_tokens':256,
                               'temperature':0.01})
