@@ -1,4 +1,4 @@
-# Running-Llama2-on-CPU-Machine
+# Article Generation App
 
 
 # How to run?
